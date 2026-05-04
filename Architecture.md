@@ -402,14 +402,19 @@ campaign_daily_metrics (campaign_id, date, impressions, clicks, conversions)
 ## Running the Server
 
 ```bash
-# Install dependencies
+# Clean and sync dependencies
+go mod tidy
+
+# Download dependencies (optional, usually handled by tidy/build)
 go mod download
 
-# Run
-go run main.go
+# Run application (correct for your structure)
+go run ./cmd/app/main.go
 
-# Build binary
-go build -o marketing-analytics main.go
+# Build binary (recommended production way)
+go build -o marketing-analytics ./cmd/app/main.go
+
+# Run binary
 ./marketing-analytics
 ```
 
