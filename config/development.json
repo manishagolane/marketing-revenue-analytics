@@ -1,0 +1,40 @@
+{
+    "environment": "development",
+    "server": {
+      "readTimeout": 5,
+      "writeTimeout": 5,
+      "timeout": 5,
+      "port": ":8010"
+      },
+    "db": {
+      "host": "localhost",
+      "user": "manishagolane",
+      "password": "",
+      "dbname": "marketing_revenue_analytics",
+      "sslmode": "disable",
+      "port": "5432",
+      "timeout": 2
+        },
+    "redis": {
+      "address": "localhost:6379",
+      "password": "",
+      "db": 1,
+      "lockDB": 2,
+      "lockExpiry": 5,
+      "poolSize": 100
+      },
+    "authentication": {
+      "jwt": {
+        "user_secret": "ccda244ad2f4eef64a22e7db61a6c9d066e9e59c66adc028d924da7733914fca3adba90543a9b2007b330cdcb2ac0342655bdb194bcd254244c9f8911cd4b4c9"
+     }
+    },
+    "aws": { 
+      "region": "us-east-1", 
+      "sqs": "https://sqs.us-east-1.amazonaws.com/572338935572/market-analytics-project",
+      "dlq": "https://sqs.us-east-1.amazonaws.com/572338935572/market-analytics-dlq"
+    },
+    "retry": {
+  "maxRetries": 3,
+  "baseDelay": 2
+}
+}
