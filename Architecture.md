@@ -28,7 +28,9 @@ Horizontally scalable consumers
 Fault tolerant processing
 Cache optimization for analytics
 
+```text
 3. High Level Architecture
+
                 ┌──────────────────────┐
                 │   Client Apps        │
                 └─────────┬────────────┘
@@ -67,6 +69,7 @@ Cache optimization for analytics
      ┌───────────────────────┐
      │ Event Logs DB         │
      └───────────────────────┘
+```
 
 4. Low Level Architecture 
 📁 Project Structure
