@@ -291,32 +291,6 @@ Logging
 zap structured logs
 
 
-
-
-
-## Table of Contents
-
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Configuration](#configuration)
-- [Database Setup](#database-setup)
-- [Running the Server](#running-the-server)
-- [Project Structure](#project-structure)
-- [Architecture](#architecture)
-- [API Reference](#api-reference)
-- [Metrics & Formulas](#metrics--formulas)
-- [Event Tracking Flow](#event-tracking-flow)
-- [Caching Strategy](#caching-strategy)
-- [Rate Limiting](#rate-limiting)
-- [Role-Based Access Control](#role-based-access-control)
-- [Think Pieces](#think-pieces)
-- [Future Improvements](#future-improvements)
-- [AI Tooling](#ai-tooling)
-
----
-
-
-
 ## Prerequisites
 
 Make sure the following are installed and running before starting:
